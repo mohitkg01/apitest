@@ -43,7 +43,7 @@ function deleteData(e){
                     li.remove();
             })
             .catch((err)=>console.log(err));
-        }
+        }console.debug(object);
     }
     else if (e.target.classList.contains('done')) {
         const li = e.target.parentElement;
