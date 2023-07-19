@@ -8,21 +8,24 @@
 <body>
     <section>
        <form id="form-id">
-        <h1>Add Users</h1>
-        <label for="">Todo title </label>
-        <input type="text" id="title"><br>
-        <label for="">Todo descption: </label>
-        <input type="text" id="desc"><br>
+        <h1>Customer</h1>
+        <label for="">Cash </label>
+        <input type="number" id="cash">
+        <label for="">Order</label>
+        <input type="text" id="order">
+        <label for="">Table no</label>
+        <select name="" id="option">
+            <option value="Table1">Table 1</option>
+            <option value="Table2">Table 2</option>
+            <option value="Table3">Table 3</option>
+        </select>
         <input type="submit" value="submit">
        </form>
-       <div><h2>Remaining todo</h2>
-        <ul id="remaining"></ul></div>
-       <div><h2>Done todo</h2>
-        <ul id="done"></ul></div>
+        <ul id="list"></ul></div>
        
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
     
-    <script src="index.js"></script>
+    <script src="hotel.js"></script>
 </body>
 </html>
